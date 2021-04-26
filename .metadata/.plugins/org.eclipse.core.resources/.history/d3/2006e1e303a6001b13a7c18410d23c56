@@ -1,0 +1,44 @@
+package entities;
+
+import java.util.Date;
+
+public class Projeto {
+	
+	private String nome;
+	private Date dt_Inicio;
+	private Date dt_Termino;
+	
+
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public Date getDt_Inicio() {
+		return dt_Inicio;
+	}
+	public void setDt_Inicio(Date dt_Inicio) {
+		this.dt_Inicio = dt_Inicio;
+	}
+	public Date getDt_Termino() {
+		return dt_Termino;
+	}
+	public void setDt_Termino(Date dt_Termino) {
+		this.dt_Termino = dt_Termino;
+	}
+	
+	public Projeto(String NOME, Date DT_INICIO, Date DT_TERMINO) {
+		
+	}
+	public boolean AdicionarContratacao(Contratacao CONTRATACAO) {
+		
+	}
+	public boolean RemoverContratacao(Contratacao CONTRATACAO) {
+		
+	}
+	public void ListarContratacao() {
+		
+	}
+	
+}

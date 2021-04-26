@@ -1,0 +1,29 @@
+package entities;
+
+import entities.enums.TipoDeDocumento;
+
+public class Funcionario {
+
+	private String Nome;
+	private String NumeroDocumento;
+	private TipoDeDocumento Documento;
+	
+	public String getNome() {
+		return Nome;
+	}
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+	public String getNumeroDocumento() {
+		return NumeroDocumento;
+	}
+	public void setNumeroDocumento(String numeroDocumento) {
+		NumeroDocumento = numeroDocumento;
+	}
+	public TipoDeDocumento getDocumento() {
+		return Documento;
+	}
+	public void setDocumento(TipoDeDocumento documento) {
+		Documento = documento;
+	}
+}

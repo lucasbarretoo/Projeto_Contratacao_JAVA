@@ -1,0 +1,22 @@
+package entities;
+
+public class Projeto {
+	
+	private String nome;
+	private Date dt_Inicio;
+	private Date dt_Termino;
+	
+	public Projeto(String NOME, Date DT_INICIO, Date DT_TERMINO) {
+		
+	}
+	public AdicionarContratacao(Contratacao CONTRATACAO) {
+		
+	}
+	public RemoverContratacao(Contratacao CONTRATACAO) {
+		
+	}
+	public ListarContratacao() {
+		
+	}
+	
+}

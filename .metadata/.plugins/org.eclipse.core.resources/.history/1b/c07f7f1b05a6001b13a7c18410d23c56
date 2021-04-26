@@ -1,0 +1,32 @@
+package entities;
+
+import java.util.Date;
+import entities.enums.Cargo;
+import entities.enums.Status;
+
+public class Contratacao {
+	private Date Data;
+	private Cargo Cargo;
+	private Status Status;
+	
+	public Date getData() {
+		return Data;
+	}
+	public void setData(Date data) {
+		Data = data;
+	}
+	public Cargo getCargo() {
+		return Cargo;
+	}
+	public void setCargo(Cargo cargo) {
+		Cargo = cargo;
+	}
+	public Status getStatus() {
+		return Status;
+	}
+	public void setStatus(Status status) {
+		Status = status;
+	}
+	
+	
+}

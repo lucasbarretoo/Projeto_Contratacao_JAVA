@@ -1,0 +1,13 @@
+package entities.enums;
+
+public enum TipoDeDocumento {
+	RG("Registro Geral"),
+	CPF("Cadastro de Pessoa Física"),
+	CNPJ("Cadastro de Pessoa Jurídica");
+	
+	TipoDeDocumento(String DESCRICAO) {
+		this.descricao = DESCRICAO;
+	}
+
+	private String Descricao;
+}
